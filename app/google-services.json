@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "699074838659",
+    "project_id": "encontrefacil-c9ba9",
+    "storage_bucket": "encontrefacil-c9ba9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699074838659:android:49bdbae15b2c53fa735bb6",
+        "android_client_info": {
+          "package_name": "com.gabrielkaiki.encontrefacil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699074838659-2cnp773ejofdlake47v44ervkg4nef3j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gabrielkaiki.encontrefacil",
+            "certificate_hash": "9acc9847aaa0f70e8dd35228b1f66e7c4cb2d397"
+          }
+        },
+        {
+          "client_id": "699074838659-pafpmmdqff5h6uag5ehs5vfttgrm3821.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLmPCs39CjaFxepYrOBlCDqkL4WupB8AA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699074838659-pafpmmdqff5h6uag5ehs5vfttgrm3821.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

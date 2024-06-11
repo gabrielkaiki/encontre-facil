@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.gabrielkaiki.encontrefacil.ui.home.HomeFragment"
+        android:label="@string/title_mapa"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.gabrielkaiki.encontrefacil.ui.dashboard.DashboardFragment"
+        android:label="@string/title_pesquisa"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.gabrielkaiki.encontrefacil.ui.notifications.NotificationsFragment"
+        android:label="@string/title_historico"
+        tools:layout="@layout/fragment_notifications">
+
+        <action
+            android:id="@+id/action_refresh_notificationsFragment"
+            app:destination="@id/navigation_notifications" />
+
+    </fragment>
+</navigation>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Encontre Fácil</string>
+    <string name="title_mapa">Mapa</string>
+    <string name="title_pesquisa">Pesquisa</string>
+    <string name="title_historico">Histórico</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+    <string name="string_intro">Encontre qualquer tipo de estabelecimento</string>
+    <string name="string_intro2">A localização é encontrada de forma automática</string>
+    <string name="string_intro2_descricao">Não precisa informar a localização. O aplicativo usa GPS ou Wi-fi.</string>
+    <string name="string_intro3_descricao">Se houver resultados de busca, será exibido marcadores sobre os locais.</string>
+    <string name="string_intro3">As coordenadas são precisas.</string>
+    <string name="lista">Ver lista</string>
+</resources>
